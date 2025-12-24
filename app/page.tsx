@@ -54,13 +54,16 @@ export default function Home() {
       <section id="home" className="scroll-mt-20">
         <div className="max-w-4xl mx-auto px-6 py-20 text-center">
 
-          <h2 className="text-4xl font-bold mb-4">
-            Hi, I’m Dinusha!
-          </h2>
+         <div className="max-w-6xl mx-auto px-6 py-20">
+    <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
+      QA Automation Engineer
+    </h1>
 
-          <p className="text-gray-600 mb-6">
-            I’m a software tester specializing in manual and automated testing.
-          </p>
+    <p className="mt-4 text-lg text-gray-600 max-w-2xl">
+      I specialize in Cypress, Playwright, API testing, and performance testing
+      with k6, building reliable and scalable test automation solutions.
+    </p>
+  </div>
 
           <button className="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700">
             View My Projects
