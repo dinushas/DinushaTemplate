@@ -24,3 +24,28 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.badge-ui {
+  @apply bg-blue-100 text-blue-700 text-xs px-3 py-1 rounded-full;
+}
+
+.badge-api {
+  @apply bg-yellow-100 text-yellow-700 text-xs px-3 py-1 rounded-full;
+}
+
+.badge-perf {
+  @apply bg-red-100 text-red-700 text-xs px-3 py-1 rounded-full;
+}
+
+.badge-tool {
+  @apply bg-gray-200 text-gray-700 text-xs px-3 py-1 rounded-full;
+}
+
+.badge-lang {
+  @apply bg-green-100 text-green-700 text-xs px-3 py-1 rounded-full;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
